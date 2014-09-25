@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  cellController.h
 //  CollectionViewSample
 //
 //  Created by paradigm creatives on 9/25/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface cellController : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *imgview;
 
 @end
